@@ -1,0 +1,838 @@
+
+/*NAV BAR=========================================*/
+
+.navStyle {
+   background: #4a90e2;
+ 
+}
+
+
+
+.navsocial {
+    color: #9AB4CB;
+    font-size: 35px !important;  
+}
+
+.contact-us-nav {
+  padding-top: 6px !Important;
+}
+
+
+.navPhone2 {
+    padding-top: 15px !important;
+}
+
+
+.navIcon {
+    width: 28px;
+}
+
+/*BANNER=========================================*/
+
+.banner {
+    height: 600px;
+    
+      -webkit-display: flex;
+    -webkit-justify-content: center;
+   
+    display: flex;
+    justify-content: center;
+
+  
+    }
+
+
+.BannerLogoTop {
+ text-align: center;
+}
+
+.blueeagle {
+        max-width: 300px
+    }
+
+
+/*BANNER BUTTON STYLE=========================================*/
+
+
+
+.bannerSpot {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+    
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+
+.quotecenter {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: white;
+     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    max-width: 900px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*SERVICES SECTION=========================================*/
+
+.services {
+    text-align: center
+}
+
+.margin-1 {
+    margin-top: 50px;   
+}
+
+.singleService {
+    font-size: 15px;
+}
+
+
+
+.serviceImg {
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.sectionquotebutton {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.c-t-o {
+  height: 150px;
+}
+
+
+/*Residential SECTION=========================================*/
+
+.residentialRows {
+    margin-bottom: 40px;
+}
+
+
+.body-center {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+
+/*Individual SECTION =========================================*/
+
+
+.pmservices {
+    
+text-align: center;
+}
+
+
+
+.invService {
+    
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #464646;
+   
+}
+
+
+.invDescription {
+    font-weight: 300;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #636363;
+   
+}
+
+.indilistrow {
+    -webkit-display: flex;
+    -webkit-justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+
+
+/*Individual Services=========================================*/
+
+
+.contactblue {
+    background: url('../img/contactroom2.jpg') no-repeat center;
+  background-size: cover;
+    margin-top: 120px;
+    
+}
+
+.individual-services-row {
+  margin-top: 75px;
+  margin-bottom: 70px;
+  
+}
+
+
+@media (min-width: 700px) {
+  .individual-services-row-flex {
+  padding-left: 140px !important;
+}
+}
+
+
+
+.flexcenter {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/*Contact Section=========================================*/
+
+
+.ContactSection {
+    
+padding-bottom: 3.5em;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    
+     display: flex;
+    justify-content: center;
+}
+
+.contactInfo {
+    text-align: center;
+   
+  
+    padding-top: 30px;
+     padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+.contactIcon {
+    width: 30px;
+}
+/*FONT STYLES =========================================*/
+
+.margin-b {
+    margin-bottom: 50px;
+}
+
+.rowMarginT {
+    margin-top: 30px;
+}
+
+.subheader{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.sectionheader {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight:700;
+    color: #464646;
+    text-align: center;
+      
+}
+
+
+.sectionheaderwhite22 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight:700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+      
+}
+
+.sectionSubheader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #636363;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+      
+    
+}
+
+
+
+.headerTop {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #464646;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: -23px;
+   
+}
+
+.SubHeaderTop {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+.headerTopWhite2 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: -23px;
+   
+}
+
+.SubHeaderTopWhite2 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.headerOne {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #464646;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: -17px;
+}
+
+.headerOneSubHeader {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #636363;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.headerTwo {
+     font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #464646;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+.bodyfont {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    
+}
+
+.whitefont {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    
+}
+
+.FinalSlogan {
+     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    margin-top: 50px;
+}
+
+
+
+.phoneNumber {
+       font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+   color: white;
+}
+
+.phonestyle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+ 
+    font-weight: 300;
+   
+    
+}
+
+.contactStyle {
+    font-size: 20px;
+   color: white;
+}
+
+
+
+.quoteName {
+    font-weight: 200;
+}
+
+
+/*MODAL STYLES====================================================*/
+
+.modaltitlefont {
+    
+     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    margin-top: 25px;
+}
+
+.modallabel {
+   font-family: 'Open Sans', sans-serif; 
+     font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #444;
+    
+}
+
+.formlogo {
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+
+.topofmodal {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.modalBackground {
+    background: #324851;
+}
+
+/*MODAL END====================================================*/
+
+
+/*ICONS=========================================*/
+
+.headerIcons {
+    margin-right: 12px;
+    color: #222;
+}
+
+
+/*NAV SECTION=========================================*/
+
+
+
+.navText {
+    color: #444 !important; 
+    font-weight: 600;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-left:8px !important;
+     padding-right:8px !important;
+}
+
+.nav-link:hover {
+  
+  color: orange !important;
+    
+}
+
+.quoteButton {
+   
+    margin-left: 5px;
+
+}
+
+.topeagle{
+    max-width: 42px;
+    
+}
+
+.active {
+    background: #396A92 !important;
+    color: white !important;
+    border-bottom: red 1px;
+    
+}
+
+.quotealink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 10px;
+}
+
+/*ABOUT SECTION=========================================*/
+
+.centeroffset {
+     max-width: 700px;
+     margin: 0 auto;
+     text-align: center;
+     padding-top: 50px;
+}
+
+
+
+
+/*BANNERS=========================================*/
+.bannersize {
+    height:300px;
+    background: #556270;
+    margin-top:100px;
+    margin-bottom: 55px;   
+}
+
+.banner1 {
+    background: url('../img/basementblue2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.banner2 {
+    
+    background: url('../img/kitchenBlue.jpg') no-repeat center;
+    background-size: cover;
+}
+
+
+.banner3 {
+    
+    background: url('../img/bluetest4.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+.banner4 {
+    background: url('../img/residential.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+
+/*FOOTER=========================================*/
+
+
+
+.footer {
+   height: 175px;
+    background: #424242;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+    
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.footeraddress {
+     font-family: 'Open Sans', sans-serif;
+    color: #d7d7d7;
+     font-size: 15px;
+    font-weight: 300;
+}
+
+
+.featuredHeights {
+    color: #d7d7d7;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -2px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.heightsLink {
+    color: #d7d7d7;
+}
+
+.heights {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.featured  {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
+
+
+/*SECTION QUOTE BUTTON=========================================*/
+
+.cm-ts-cta {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  border: 2px solid #396A92;
+  border-radius: 3px;
+  color: #396A92;
+  padding: 10px;
+text-align: center;
+  transition: all 0.2s linear;
+     margin-top: 30px;
+}
+
+.cm-ts-cta:hover {
+  background-color: #396A92;
+  color: #fff;
+    text-decoration: none;
+}
+
+
+
+.wide {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  border: 2px solid #396A92;
+  border-radius: 3px;
+  color: #396A92;
+  padding: 10px;
+text-align: center;
+  transition: all 0.2s linear;
+}
+
+.wide:hover {
+  background-color: #396A92;
+  color: #fff;
+    text-decoration: none;
+}
+
+
+/*Residential SECTION=========================================*/
+
+.sectioncenter {
+    text-align: center;   
+}
+
+
+/*Media Queries=========================================*/
+
+
+
+/*1200px=========*/
+
+@media (max-width: 1200px) {
+    
+    .navText {
+        font-size: 12px;
+     
+    }
+    
+      .topeagle {
+        display: none !important;
+    }
+    
+}
+
+
+/*1000px=========*/
+
+
+
+@media (max-width: 1000px) and (min-width: 768px){
+    
+  
+    .quotealink {
+      
+       padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+
+
+/*900px=========*/
+
+@media (max-width: 900px){
+    
+    .quote {
+        padding-left: 4%;
+        padding-right: 4%;
+        
+    }
+    
+}
+
+
+
+/*767px=========*/
+
+
+@media (max-width: 767px) {
+    
+    
+    .indilistrow {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    
+     .services {
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+
+
+/*450px=========*/
+
+
+@media (max-width: 600px) {
+    
+    .subheader {
+        font-size: 22px;
+        
+    }
+    
+    .blueeagle {
+        max-width: 300px
+    }
+    
+    
+    .phonestyle {
+    font-size: 16px;
+}
+    
+    .phoneNumber {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+/*450px=========*/
+
+
+
+
+@media (max-width: 450px){
+    .titleHeader {
+        font-size: 25px;
+    }
+    
+    .subheader {
+        font-size: 18px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    .blueeagle {
+        max-width: 400px;
+    }
+    
+    .footeraddress {
+        font-size: 12px;
+    }
+    
+    
+    
+   
+}
+
+
